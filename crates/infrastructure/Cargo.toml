@@ -1,0 +1,13 @@
+[package]
+name = "infrastructure"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+wana_kana = "5.0"
+application = { path = "../application" }
+domain = { path = "../domain" }
+tempfile = "3.27.0"
+hound = "3.5.1"
+thiserror = "2.0.21"
+log = "0.4.35"

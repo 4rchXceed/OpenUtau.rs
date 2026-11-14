@@ -1,0 +1,17 @@
+[package]
+name = "openutau-rs"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+domain = { path = "crates/domain" }
+application = { path = "crates/application" }
+infrastructure = { path = "crates/infrastructure" }
+
+[workspace]
+resolver = "3"
+members = [
+    "crates/infrastructure",
+    "crates/application",
+    "crates/domain",
+]

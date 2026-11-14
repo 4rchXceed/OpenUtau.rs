@@ -1,0 +1,16 @@
+pub const METADATA_EXTENSIONS: [&'static str; 14] = [
+    ".llsm",
+    ".uspec",
+    ".dio",
+    ".star",
+    ".platinum",
+    ".frc",
+    ".pmk",
+    ".vs4ufrq",
+    ".rudb",
+    ".sc.npz",
+    ".sc",
+    "hnsep",
+    ".hifi.npz",
+    ".frq",
+];

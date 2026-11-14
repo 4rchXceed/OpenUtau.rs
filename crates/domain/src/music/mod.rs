@@ -1,0 +1,3 @@
+//! Utils for Music pitch, notes, etc...
+pub mod note;
+pub mod relative_pitch;
